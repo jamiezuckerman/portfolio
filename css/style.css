@@ -1,0 +1,182 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Arial', sans-serif; /* Test for this*/
+    margin: 0;
+    padding: 0;
+    font-size: 16pt; /* test for this! Make all sizes em or rem */
+    background-color: lightskyblue;
+  }
+nav a{
+
+    text-decoration: none;
+    padding: 10px;
+    border:2px solid blue;
+    border-radius: 20px;
+    background-color: white;
+} 
+.navbar li{
+    width: 20%;
+    border: 2px solid black;
+    font-size: 125%;
+    padding: 1% 2%;
+    border-radius: 10px;
+    float: center;
+    text-align:center;
+    justify-content: center;
+    text-align: center;
+    margin: 2px;
+    background-color: lightgrey;
+}
+
+nav ul{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.nav li a.current{
+    color:lightskyblue;
+}
+
+  h1{
+    font-size: 2em;
+   
+    text-align: center;
+    line-height: 2;
+  }
+  
+  h2{
+    font-size: 1.5em;
+    text-align: center;
+    padding: 5px;
+  }
+  
+  p {
+    padding: 0 30px;
+  }
+  /*index*/
+ .hi {
+    color: white;
+    text-align: center;
+  }
+  .headshot-picture{
+    display: grid;
+    justify-content: center;
+    justify-items: center
+  }
+
+  /*experience*/
+  .blurb{
+    color: white;
+    text-align: center;
+  }
+  .unmasked-picture{
+    display: grid;
+    justify-content: center;
+    justify-items: center
+  }
+  .unmasked-explanation{
+    color: white;
+    text-align: center;
+  }
+  .mdining-picture{
+    display: grid;
+    justify-content: center;
+    justify-items: center
+  }
+  .mdining-explanation{
+    color: white;
+    text-align: center;
+  }
+  .dickerson-picture{
+    display: grid;
+    justify-content: center;
+    justify-items: center
+  }
+  .dickerson-explanation{
+    color: white;
+    text-align: center;
+  }
+  .dailyui-picture{
+    display: grid;
+    justify-content: center;
+    justify-items: center
+  }
+  .dailyui-explanation{
+    color: white;
+    text-align: center;
+  }
+
+  /*photos*/
+    .words{
+    color: white;
+    text-align: center;
+}
+    .photogrid{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 70%;
+        margin-left:auto;
+        margin-right: auto;
+    }
+    .photogrid img{
+        padding: 10px;
+        margin: 0 auto;
+    }
+
+    img{
+       width:100%;
+       height: auto; 
+    }
+
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+    }    
+
+    li{
+        flex-grow: 1;
+    }
+
+    .overlay{
+      display: none;
+  }
+
+  /*contact*/
+    .index-head{
+        color: white;
+        text-align: center;
+    }
+    .contact{
+        color: white;
+        text-align: center;
+    }
+    .links{
+        display:grid;
+        grid-gap: 25px;
+        justify-items: center;
+        justify-content: center;
+
+    }
+    
+    .resume{
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+        max-height: 100%;
+        height: auto;
+    }
+  *:focus{
+    border: 2px solid black;
+  }
+  
+  footer{
+    background-color:white;
+    color: lightskyblue;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  /*Begin your code here*/
+  /*Keyframes for animation*/
