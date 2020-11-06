@@ -2,11 +2,11 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    font-family: 'Arial', sans-serif; /* Test for this*/
+    font-family: 'Arial', "Helvetica", sans-serif; /* Test for this*/
     margin: 0;
     padding: 0;
     font-size: 16pt; /* test for this! Make all sizes em or rem */
-    background-color: lightskyblue;
+    background-color: rgb(14, 109, 168);
   }
 nav a{
 
@@ -16,27 +16,22 @@ nav a{
     border-radius: 20px;
     background-color: white;
 } 
-.navbar li{
-    width: 20%;
-    border: 2px solid black;
-    font-size: 125%;
+.nav li{
     padding: 1% 2%;
-    border-radius: 10px;
-    float: center;
-    text-align:center;
-    justify-content: center;
-    text-align: center;
-    margin: 2px;
-    background-color: lightgrey;
+    margin: 5px;
 }
 
 nav ul{
     display:flex;
-    justify-content: space-between;
+    align-items: center;
     flex-direction: column;
 }
 .nav li a.current{
-    color:lightskyblue;
+    color: rgb(14, 109, 168);
+}
+
+.skip a{
+    color: white;
 }
 
   h1{
@@ -57,13 +52,16 @@ nav ul{
   }
   /*index*/
  .hi {
+    font-family: 'Arial', "Helvetica", sans-serif;
+
     color: white;
     text-align: center;
   }
   .headshot-picture{
-    display: grid;
-    justify-content: center;
-    justify-items: center
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    
   }
 
   /*experience*/
@@ -135,16 +133,14 @@ nav ul{
         flex-wrap: wrap;
     }    
 
-    li{
-        flex-grow: 1;
-    }
+
 
     .overlay{
       display: none;
   }
 
   /*contact*/
-    .index-head{
+    #main{
         color: white;
         text-align: center;
     }
@@ -173,7 +169,7 @@ nav ul{
   
   footer{
     background-color:white;
-    color: lightskyblue;
+    color:  rgb(14, 109, 168);
     padding: 30px;
     text-align: center;
   }
