@@ -6,10 +6,21 @@
     <link rel="stylesheet" type="text/css" href="css/html5reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Homepage</title>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-PL2S2JYXPP"></script>
+	<script>
+  		window.dataLayer = window.dataLayer || [];
+  		function gtag(){dataLayer.push(arguments);}
+  		gtag('js', new Date());
+
+  		gtag('config', 'G-PL2S2JYXPP');
+	</script>
 </head>
 <body>
     <main>
     <div class="skip"><a href="#main">Skip to Main Content</a></div>
+		<div class="parallaxcontact">
+		</div>
         <div class="nav">
                 <nav>
                   <ul>
@@ -53,6 +64,28 @@
      		
 		<div class="resume">
 			   <img src="images/resume.jpeg" alt="Resume" class=center>
+		</div>
+
+		<div class="container">
+			<div style = "text-align:center">
+				<h3> Contact me! </h3>
+			</div>
+			<div class= "row">
+				<form 
+				action = "https://formspree.io/f/mbjpzjgb"
+				method= "POST"
+				>
+					<label for="fname">First Name</label>
+					<input type="text" id="fname" name="firstname" placeholder="Your first name..">
+					<label for="lname">Last Name</label>
+					<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+					<label for="email">Email</label>
+					<input type="text" id="email" name="email" placeholder="Your email address..">
+					<label for="subject">Subject</label>
+					<textarea id="subject" name="subject" placeholder="Let's chat!" style="height:70px"></textarea>
+					<input type="submit" value="Submit">
+				</form>
+			</div>
 		</div>
        
 
